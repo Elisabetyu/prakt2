@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея пирожных</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="gallery-container">
+    <button class="add-btn">Добавить пирожное</button>
+    <div class="gallery" id="gallery"></div>
+    <div class="pagination">
+        <button class="page-prev">‹</button>
+        <span>Page <span id="currentPage">1</span></span>
+        <input type="number" class="page-input" id="pageInput" min="1" value="1">
+        <button class="page-next">›</button>
+    </div>
+</div>
+
+<div class="details-page" id="detailsPage">
+    <h1 id="cakeTitle"></h1>
+    <button class="back-btn">Назад</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
